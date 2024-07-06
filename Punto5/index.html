@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Gestión de Productos</h1>
+        <div>
+            <h2>Lista de Productos</h2>
+            <ul id="product-list"></ul>
+        </div>
+        <div>
+            <h2>Filtrar por Categoría</h2>
+            <select id="category-filter">
+                <option value="all">Todos</option>
+                <option value="Electronics">Electrónica</option>
+                <option value="Clothing">Ropa</option>
+                <option value="Accessories">Accesorios</option>
+            </select>
+            <button id="filter-category">Filtrar</button>
+        </div>
+        <div>
+            <h2>Buscar Producto</h2>
+            <input type="text" id="search-name" placeholder="Nombre del producto">
+            <button id="search-product">Buscar</button>
+            <p id="search-result"></p>
+        </div>
+        <div>
+            <h2>Precio Total</h2>
+            <p id="total-price"></p>
+        </div>
+        <div>
+            <h2>Disponibilidad de Productos</h2>
+            <p id="availability"></p>
+        </div>
+        <div>
+            <h2>Nombres de Productos</h2>
+            <ul id="product-names"></ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
